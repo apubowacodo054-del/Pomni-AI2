@@ -1,4 +1,4 @@
-let control = async (m, { command, text, conn, bot, participants }) => {
+omm887275@gmail.comlet control = async (m, { command, text, conn, bot, participants }) => {
     try {
         const isBotOwner = (userId) => {
             if (!bot.config || !bot.config.owners) return false;
